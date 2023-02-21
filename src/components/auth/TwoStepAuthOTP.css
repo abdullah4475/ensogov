@@ -1,0 +1,40 @@
+.main-container {
+  display: flex;
+}
+
+.forgot-pass-container {
+  display: flex;
+  width: 400px;
+  height: 400px;
+  flex-direction: column;
+}
+
+.logo-container {
+  display: flex;
+  width: 400px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  margin-top: 30px;
+  margin-left: 55px;
+}
+
+.otp-fields {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+
+.button-container-otp {
+  width: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}

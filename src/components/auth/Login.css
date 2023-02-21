@@ -1,0 +1,43 @@
+.main-container {
+  display: flex;
+}
+
+.left-container {
+  height: 100vh;
+  width: 42%;
+  background-image: url(https://s3-alpha-sig.figma.com/img/0f23/5c31/9a48eb7c79cb2eafebb648db5b9927f6?Expires=1677456000&Signature=IUVIHyZRp2BXvr6s2S4ynfW9TYl0WTC0ryaSSfk7kax5zC9pko0haqaXNKELlYpMHBHB9W7B1E3hNyYLWNm5s9~~wo1A57D0pcea9pilsFDPs5KAiOocdPIza8Byxsie-m~oNE-DZzAkgMqv0MCYrLAaMr~tSf9umY0oUHGrx-bn8X955y2VLJs2OU0YPpQ6Go04iMJ4AaI6bUFTVpfDJ9LI1zcZF2A7rXh3jFCeicefAFIthnBibEIt4fo0w35HzO11K0mg~3UERiQPvWRdYwJOUwFtTkh65IM1PKA-HJ9uwtmmvEsibztjsguZOzYSBWtOvsQaKc07uDIQTv3zQQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: brightness(30%);
+}
+
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58%;
+  height: 100vh;
+}
+
+.form-container {
+  height: 511px;
+  width: 600px;
+}
+
+.logo {
+  width: 293px;
+  height: 60px;
+  margin-top: 55px;
+}
+
+.form-header {
+  margin-top: 40px;
+}
+.form-fields {
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
+}

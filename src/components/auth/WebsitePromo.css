@@ -1,0 +1,32 @@
+.left-container {
+  height: 100vh;
+  width: 42%;
+  background-image: url(../../../public/website-promo-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.website-promo-container {
+  height: 511px;
+  width: 500px;
+  position: absolute;
+  margin-top: 131px;
+  left: 43px;
+}
+
+.website-features-container {
+  margin-top: 40px;
+}
+
+.website-feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.website-feature-text {
+  font-size: 14px;
+  padding-left: 20px;
+  color: white;
+}

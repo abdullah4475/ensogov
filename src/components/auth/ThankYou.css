@@ -1,0 +1,24 @@
+.main-container {
+  display: flex;
+}
+
+.right-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58%;
+  height: 100vh;
+}
+
+.thankyou-container {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 350px;
+  align-items: center;
+}
+
+.mail-icon {
+  width: 150px;
+  height: 140px;
+}
